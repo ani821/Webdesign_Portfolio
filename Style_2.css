@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Special+Elite&display=swap');
+
+/*
+
+font-family: 'Special Elite';
+font-family: 'IM Fell English';
+
+*/
+
+h1, h2, li{
+font-family: 'Special Elite';
+
+}
+
+
+p, footer{
+font-family: 'IM Fell English';
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  }
+  
+  nav ul li{
+  margin: 1px;
+  
+  
+      
+  }
+  
+  
+  
+  
+  nav ul li a{
+  text-decoration: none;
+  background:rgb(212, 212, 212);
+  color:rgb(0, 0, 0);
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  }
+  
+  nav ul li a:hover{
+  background:#ffffff;
+  color: #000000
+  
+  
+  
+  }
+  
+  
+
+
+
+
+
+
+
+
+main{
+  width: 65%;
+  margin:auto;
+}
+
+main h1{
+  border-bottom: 5px solid #000000;
+  padding: 10px;
+}
+
+
+
+
+
+body{
+  background: #acb0b4;
+ 
+}
+
+
+
+
+
+.container{
+  position: relative;
+  width: 90%;
+  min-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+grid-template-columns:  1fr 2fr ;
+box-shadow: 0px 0px 10px rgba(0, 0,0, 0.7);
+
+
+}
+
+
+
+.container .left{
+  position: relative;
+  background: rgb(212, 212, 212);
+  padding: 40px 20px;
+  width: 100%;
+  color:#000000;
+
+  
+}
+
+.container .right{
+  position: relative;
+  background: #ffffff;
+  padding: 40px;
+
+  
+}
+
+
+
+
+
+
+ /* media queries go at the end of all other styles */
+@media only screen and (max-width: 700px){
+
+}
+   
+
+
+
+

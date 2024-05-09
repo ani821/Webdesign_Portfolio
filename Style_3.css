@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Special+Elite&display=swap');
+
+/*
+
+font-family: 'Special Elite';
+font-family: 'IM Fell English';
+
+*/
+
+h1, h2, li{
+font-family: 'Special Elite';
+
+}
+
+p, footer{
+font-family: 'IM Fell English';
+
+}
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+
+header, footer{
+
+  background-color: rgb(212, 212, 212);
+   padding: 10px;
+
+}
+
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  }
+  
+  nav ul li{
+  margin: 1px;
+  
+  
+      
+  }
+  
+  
+  
+  
+  nav ul li a{
+  text-decoration: none;
+  background:rgb(212, 212, 212);
+  color:rgb(0, 0, 0);
+  padding: 10px;
+  display: inline-block;
+  border-radius: 5px;
+  }
+  
+  nav ul li a:hover{
+  background:#ffffff;
+  color: #000000
+  
+  
+  
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #000000;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 700px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}

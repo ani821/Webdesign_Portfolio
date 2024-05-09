@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Special+Elite&display=swap');
+
+/*
+
+font-family: 'Special Elite';
+font-family: 'IM Fell English';
+
+*/
+
+h1, h2, li{
+font-family: 'Special Elite';
+
+}
+
+p{
+font-family: 'IM Fell English';
+
+}
+
+
+
+
+Header, footer {
+    background-color: rgb(212, 212, 212);
+   padding: 10px;
+}
+
+h1 {
+    color: #000000;
+}
+
+p {
+    color:#000000;
+}
+
+h2 {
+    color:#000000;
+}
+
+
+main {
+width: 75%;
+}
+
+.box {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+img {
+    display: block;
+    max-width: 25%;
+    flex: 1 1 25%;
+    justify-content: right;
+}
+
+
+
+nav ul{
+list-style-type: none;
+padding: 0;
+display: flex;
+justify-content: space-evenly;
+}
+
+nav ul li{
+margin: 1px;
+
+
+    
+}
+
+
+
+
+nav ul li a{
+text-decoration: none;
+background:rgb(212, 212, 212);
+color:rgb(0, 0, 0);
+padding: 10px;
+display: inline-block;
+border-radius: 5px;
+}
+
+nav ul li a:hover{
+background:#ffffff;
+color: #000000
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries go at the end of all other styles */
+@media only screen and (max-width: 700px){
+
+}
